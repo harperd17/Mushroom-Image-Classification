@@ -16,7 +16,7 @@ This project uses a data set from [a github user](https://github.com/bechtle/mus
 <pre>
 Data               : <a href=https://www.kaggle.com/harperd17/mushroom-pictures-sorted>Data Kaggle Upload </a>
 Code               : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Notebooks/Modeling%20Code.ipynb>Modeling Notebook </a>
-                    [Google Colab Link](insert link)
+                   : <a href= insert link>Google Colab Notebook Link </a>
 Report             : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Report/Report%20Notebook.ipynb>Report Notebook</a>
 </pre>
 ## Project Information
