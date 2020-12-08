@@ -2,6 +2,7 @@
 ---
 ## Overview
 ---
+This project compares classification results from transfer learning from various common convolutional neural network (CNN) architectures. In particular, the final model uses the core layers of the ResNet50 CNN architectur and tacks on some customized classification layers on top of them. After training these customized top layers and doing some fine tuning, the model yields a 92.4% validation accuracy. When this model classified the test image set, a 93.1% accuracy was acheived. However, when only considering the model classifications that yield a prediction probability of 75% or higher, a 96% test accuracy was acheived.
 ## Project Goals
 ---
 The goal of this project is to be able to verify the classification of various edible mushrooms collected by harvesters through a computer vision model. Another goal is for this model to provide good distinction between these edible mushrooms and their poisonous look-a-likes.
@@ -15,9 +16,12 @@ This project uses a data set from [a github user](https://github.com/bechtle/mus
 ---
 <pre>
 Data               : <a href=https://www.kaggle.com/harperd17/mushroom-pictures-sorted>Data Kaggle Upload </a>
-Code               : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Notebooks/Modeling%20Code.ipynb>Modeling Notebook </a>
-                   : <a href= insert link>Google Colab Notebook Link </a>
-Report             : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Report/Report%20Notebook.ipynb>Report Notebook</a>
+Code               : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Notebooks/Mushroom_EDA.ipynb>EDA </a>
+                   : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Notebooks/Modeling%20Code.ipynb>Modeling Notebook </a>
+                   : <a href= https://colab.research.google.com/drive/1y2mXYKPe-Da5OFMCnxzuZoquCLQ9v4v-#scrollTo=8tNWu8vHBY-i>Google Colab Notebook Link </a>
+                   : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Notebooks/Augmentation_Figure.ipynb>Augmentation Visualization </a>
+                   : <a href= https://colab.research.google.com/drive/1MIEPZsfWn0gR19HTDPg2Te0ML4PjtJVk>Google Colab Notebook Link </a>
+Report             : <a href=https://github.com/harperd17/Mushroom-Image-Classification/blob/master/Report/Report.ipynb>Report Notebook</a>
 </pre>
 ## Project Information
 ---
