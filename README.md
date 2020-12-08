@@ -28,4 +28,4 @@ Report             : <a href=https://github.com/harperd17/Mushroom-Image-Classif
 <b>Author: </b>David Harper <br>
 <b>Language: </b>Python <br>
 <b>Tools/IDE: </b>Anaconda and Google Colab <br>
-<b>Libraries: </b>keras, tensorflow, scikit-learn, numpy, pandas, plotly, matplotlib, zipfile, os, shutil, errno, PIL, and random
+<b>Libraries: </b>keras, tensorflow, scikit-learn, numpy, pandas, plotly, matplotlib, zipfile, os, shutil, errno, PIL, google colab files, and random
